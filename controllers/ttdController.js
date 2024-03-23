@@ -6,6 +6,7 @@ const Update = require('../models/ttdModel');
 const url = 'https://ttdevasthanams.ap.gov.in/cms/api/universal-latest-updates';
 
 // Function to fetch and parse the latest updates
+
 exports.getLatestUpdates = async (req, res) => {
     try {
         // Fetch data from the API
