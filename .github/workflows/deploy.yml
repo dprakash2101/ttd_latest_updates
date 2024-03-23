@@ -35,4 +35,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: dprakash0321/moviesapi:latest
+          tags: dprakash0321/ttd_latest_updates:latest
