@@ -15,7 +15,7 @@ This application is deployed on [Render](https://ttd-latest-updates-latest.onren
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/ttd-web-scraper.git
+git clone https://github.com/dprakash2101/ttd-web-scraper.git
 ```
 
 2. Install Depedencies
