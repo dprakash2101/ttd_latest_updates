@@ -1,0 +1,20 @@
+{
+  "name": "ttdwebscrapper",
+  "version": "1.0.0",
+  "description": "A webscrapper which scrapes info from latest updates of ttd website.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Devi Prakash Kandikonda",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.19.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
