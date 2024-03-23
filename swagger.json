@@ -1,0 +1,44 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "TTD Web Scraper API",
+      "version": "1.0.0",
+      "description": "API for scraping latest updates from TTD website"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:3000",
+        "description": "Development server"
+      }
+    ],
+    "paths": {
+      "/latest-updates": {
+        "get": {
+          "summary": "Get the latest updates from TTD website.",
+          "description": "Fetches the latest updates from TTD website.",
+          "responses": {
+            "200": {
+              "description": "A JSON array of latest updates.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": { "type": "integer" },
+                        "tag": { "type": "string" },
+                        "data": { "type": "string" },
+                        "publishedAt": { "type": "string", "format": "date-time" }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
