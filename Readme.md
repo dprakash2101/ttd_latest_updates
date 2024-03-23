@@ -6,6 +6,10 @@ API for scraping latest updates from TTD website.
 
 This API provides endpoints to fetch the latest updates from the TTD (Tirumala Tirupati Devasthanams) website. It scrapes data from the website and returns it in a structured JSON format.
 
+## Deployment
+This application is deployed on [Render](https://ttd-latest-updates-latest.onrender.com).
+
+
 ## Installation
 
 1. Clone the repository:
@@ -30,7 +34,23 @@ npm start
 
 ## Usage
 
-To access the latest updates data, make a GET request to the following endpoint:
+You can access the latest updates from the TTD website through the following endpoints:
+
+- **Get Latest Updates:**  
+  Endpoint: `https://ttd-latest-updates-latest.onrender.com/latest-updates`  
+  Method: `GET`  
+  Description: Fetches the latest updates from the TTD website.
+
+### Example
+
+```bash
+curl https://ttd-latest-updates-latest.onrender.com/latest-updates
+```
+```bash
+curl https://ttd-latest-updates-latest.onrender.com/api-docs/
+```
+
+To access the latest updates data in your local host, make a GET request to the following endpoint:
 
 ```bash
 http://localhost:3000/latest-updates
