@@ -6,9 +6,6 @@ API for scraping latest updates from TTD website.
 
 This API provides endpoints to fetch the latest updates from the TTD (Tirumala Tirupati Devasthanams) website. It scrapes data from the website and returns it in a structured JSON format.
 
-## Deployment
-This application is deployed on [Render](https://ttd-latest-updates-latest.onrender.com).
-
 
 ## Installation
 
