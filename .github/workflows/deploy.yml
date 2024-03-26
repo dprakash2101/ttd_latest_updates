@@ -69,4 +69,5 @@ jobs:
         run: |
           git add last_deploy.txt
           git commit -m "Update last deploy time [skip ci]"
+          git pull
           git push
