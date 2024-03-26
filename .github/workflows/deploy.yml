@@ -48,20 +48,25 @@ jobs:
           service-id: ${{ secrets.RENDER_SERVICE_ID }}
           api-key: ${{ secrets.RENDER_API_KEY }}
 
+     
+  commit_and_push:
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
       - name: Update last deploy time
         run: |
-          echo "Last deploy: $(date)" >> last_deploy.txt || echo "Last deploy: $(date)" > last_deploy.txt
+          echo "Last deploy (IST): $(TZ=Asia/Kolkata date)" >> last_deploy.txt || echo "Last deploy (IST): $(TZ=Asia/Kolkata date)" > last_deploy.txt
         if: always()
 
       - name: Configure Git
         run: |
           git config --global user.name "dprakash2101"
-          git config --global user.email "dprakash2101@gmail.com"
-        if: always()
+          git config --global user.email "your-email@example.com"
 
       - name: Commit and push changes
         run: |
           git add last_deploy.txt
           git commit -m "Update last deploy time [skip ci]"
           git push
-        if: always()
