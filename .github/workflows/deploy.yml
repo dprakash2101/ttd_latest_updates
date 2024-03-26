@@ -49,7 +49,7 @@ jobs:
           api-key: ${{ secrets.RENDER_API_KEY }}
 
      
-  commit_and_push:
+  log_date_and_time:
     runs-on: ubuntu-latest
     needs: deploy
     steps:
