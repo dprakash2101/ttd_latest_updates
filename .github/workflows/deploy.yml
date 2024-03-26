@@ -62,8 +62,8 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config --global user.name "dprakash2101"
-          git config --global user.email "your-email@example.com"
+          git config --global user.name ${{ secrets.USERNAME}}
+          git config --global user.email ${{ secrets.USER_EMAIL}}
 
       - name: Commit and push changes
         run: |
