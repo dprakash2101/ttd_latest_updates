@@ -55,7 +55,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name dprakash2101
+          git config --global user.name "dprakash2101"
           git config --global user.email "dprakash2101@gmail.com"
           git add last_deploy.txt
           git commit -m "Update last deploy time [skip ci]"
