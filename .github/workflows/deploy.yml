@@ -53,10 +53,14 @@ jobs:
           echo "Last deploy: $(date)" >> last_deploy.txt || echo "Last deploy: $(date)" > last_deploy.txt
         if: always()
 
-      - name: Commit and push changes
+      - name: Configure Git
         run: |
           git config --global user.name "dprakash2101"
           git config --global user.email "dprakash2101@gmail.com"
+        if: always()
+
+      - name: Commit and push changes
+        run: |
           git add last_deploy.txt
           git commit -m "Update last deploy time [skip ci]"
           git push
