@@ -21,6 +21,8 @@ jobs:
 
       - name: Install
         run: npm install
+       
+
   test:
     runs-on: ubuntu-latest
     strategy:
@@ -29,16 +31,16 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Use Node.js for tests ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm i
-    - run: npm run build --if-present
-    - run: npm test
-  
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Node.js 20.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20.x'
+      
+      - name: Run tests
+        run: npm test
 
   build:
     runs-on: ubuntu-latest
