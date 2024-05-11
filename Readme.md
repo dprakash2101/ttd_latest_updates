@@ -41,10 +41,10 @@ You can access the latest updates from the TTD website through the following end
 ### Example
 
 ```bash
-curl https://ttd-latest-updates-latest.onrender.com/latest-updates
+ https://ttd-latest-updates-latest.onrender.com/latest-updates
 ```
 ```bash
-curl https://ttd-latest-updates-latest.onrender.com/api-docs/
+ https://ttd-latest-updates-latest.onrender.com/api-docs/
 ```
 
 To access the latest updates data in your local host, make a GET request to the following endpoint:
