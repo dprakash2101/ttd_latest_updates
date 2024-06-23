@@ -1,0 +1,56 @@
+name: Update README with TTD Latest Updates
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'  # Runs every 15 minutes
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Fetch latest updates from TTD API
+        id: fetch-updates
+        run: |
+          response=$(curl -s https://ttd-latest-updates-latest.onrender.com/latest-updates)
+          echo "::set-output name=response::$response"
+
+      - name: Update README.md
+        id: update-readme
+        run: |
+          response=${{ steps.fetch-updates.outputs.response }}
+          
+          # Parse the new response
+          new_updates=$(echo "$response" | jq -r '.[] | "### \(.tag)\n\n\(.data)\n\nPublished at: \(.publishedAt)\n\n"')
+
+          # Extract the old updates
+          old_updates=$(sed -n '/## Latest Updates/,$p' README.md)
+
+          # Compare old and new updates
+          if [ "$new_updates" != "$old_updates" ]; then
+            # Update the README file
+            sed -i '/## Latest Updates/,$d' README.md
+            echo "## Latest Updates" >> README.md
+            echo "$new_updates" >> README.md
+
+            # Commit and push changes
+            git config --global user.name ${{ secrets.USERNAME}}
+          git config --global user.email ${{ secrets.USER_EMAIL}}'
+            git add README.md
+            git commit -m 'Update TTD Latest Updates in README'
+            git push
+          else
+            echo "No updates found."
+          fi
+
+      - name: Check if README was updated
+        run: |
+          if [ "$(git status --porcelain)" != "" ]; then
+            echo "README.md updated successfully."
+          else
+            echo "No changes to README.md."
+          fi
