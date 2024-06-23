@@ -17,15 +17,31 @@ jobs:
         id: fetch-updates
         run: |
           response=$(curl -s https://ttd-latest-updates-latest.onrender.com/latest-updates)
-          echo "::set-output name=response::$response"
+          echo "$response" > response.json
+
+      - name: Convert JSON to Markdown Table
+        id: convert-to-table
+        run: |
+          updates=$(jq -r '
+            [
+              "ID", "Tag", "Data", "Published At"
+            ],
+            (.[] | [
+              .id, 
+              (.tag // "N/A"), 
+              (.data | gsub("\n"; " ") | gsub("  "; " ")), 
+              .publishedAt
+            ]) 
+            | @csv' response.json | sed 's/^/| /;s/","/ | /g;s/"$//;s/^"//;s/"/\|/g')
+
+          table=$(echo "$updates" | sed 's/"/|/g' | sed '1s/^/| /;1s/$/ |/;1a|---|---|---|---|')
+
+          echo "$table" > updates_table.md
 
       - name: Update README.md
         id: update-readme
         run: |
-          response=${{ steps.fetch-updates.outputs.response }}
-          
-          # Parse the new response
-          new_updates=$(echo "$response" | jq -r '.[] | "### \(.tag)\n\n\(.data)\n\nPublished at: \(.publishedAt)\n\n"')
+          new_updates=$(cat updates_table.md)
 
           # Extract the old updates
           old_updates=$(sed -n '/## Latest Updates/,$p' README.md)
@@ -39,7 +55,7 @@ jobs:
 
             # Commit and push changes
             git config --global user.name ${{ secrets.USERNAME}}
-          git config --global user.email ${{ secrets.USER_EMAIL}}'
+            git config --global user.email ${{ secrets.USER_EMAIL}}
             git add README.md
             git commit -m 'Update TTD Latest Updates in README'
             git push
