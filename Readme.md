@@ -6,7 +6,7 @@ API for scraping latest updates from TTD website.
 
 This API provides endpoints to fetch the latest updates from the TTD (Tirumala Tirupati Devasthanams) website. It scrapes data from the website and returns it in a structured JSON format.
 
-## Latest Updates
+
 ## Latest Updates
 <table><thead><tr><th>ID</th><th>Tag</th><th>Data</th><th>Published At</th></tr></thead><tbody><tr><td>49</td><td>Arjitha Sevas (Seva e-DIP) Registration Count</td><td>Total number of Registrations received for September - 2024 Srivari Arjitha Sevas e-DIP quota:
 
