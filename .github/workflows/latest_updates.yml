@@ -39,17 +39,12 @@ jobs:
         run: |
           new_updates=$(cat updates_table.html)
 
-          # Extract the content before "## Latest Updates"
-          before_updates=$(sed -n '1,/## Latest Updates/p' Readme.md)
+          # Remove existing "Latest Updates" section
+          sed -i '/## Latest Updates/,/<!-- The content here will be replaced by the GitHub Action -->/d' Readme.md
 
-          # Extract the content after "## Latest Updates"
-          after_updates=$(sed -n '/## Latest Updates/,$p' Readme.md | sed '1d')
-
-          # Combine the new updates into the README
-          echo "$before_updates" > Readme.md
+          # Add new "Latest Updates" section with updated content
           echo "## Latest Updates" >> Readme.md
           echo "$new_updates" >> Readme.md
-          echo "$after_updates" >> Readme.md
 
           # Save the new response as the current response for next comparison
           mv new_response.json response.json
