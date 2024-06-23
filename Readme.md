@@ -8,44 +8,7 @@ This API provides endpoints to fetch the latest updates from the TTD (Tirumala T
 
 ## Latest Updates
 
-<table>
-  <thead>
-    <tr>
-      <th>ID</th>
-      <th>Tag</th>
-      <th>Data</th>
-      <th>Published At</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>49</td>
-      <td>Arjitha Sevas (Seva e-DIP) Registration Count</td>
-      <td>Total number of Registrations received for September - 2024 Srivari Arjitha Sevas e-DIP quota:
-        - Thomala seva : **328818**
-        - Archana : **324004**
-        - Astadala Pada Padmaradhana : **313386**
-        - Suprabhatham : **360105**
-        For Selected List [Click here](https://ttdevasthanams.ap.gov.in/misc/images/v4/2024_06_20_EDIP_SELECTIONS.pdf)
-      </td>
-      <td>2024-06-20T04:37:33.232Z</td>
-    </tr>
-    <tr>
-      <td>52</td>
-      <td>Arjitha Sevas (Virtual)</td>
-      <td>Srivari Arjitha Seva (Virtual participation) and connected Darshan quota for Kalyanothsavam, Unjal Seva, Arjitha Brahmotsavam & Sahasra Deepalankara Sevas of Srivari Temple, Tirumala for September-2024 will be available for booking w.e.f. 21.06.2024 3:00 PM. Please [click here](/virtual-seva/seva-instructions?templeName=%27Srivari%20Temple%27&flowIdentifier=virtual-seva&flow=virtual-seva)
-      </td>
-      <td>2024-04-16T06:41:06.744Z</td>
-    </tr>
-    <tr>
-      <td>53</td>
-      <td>Angapradakshinam</td>
-      <td>Tirumala Angapradakshinam tokens for September-2024 will be available for booking w.e.f. 22.06.2024 10:00 AM. Please [click here](/apd/slot-booking?flow=apd&flowIdentifier=apd)</td>
-      <td>2024-06-12T11:20:48.374Z</td>
-    </tr>
-    <!-- Add more rows as needed -->
-  </tbody>
-</table>
+
 
 ## Installation
 
