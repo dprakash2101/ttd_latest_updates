@@ -9,7 +9,6 @@ This API provides endpoints to fetch the latest updates from the TTD (Tirumala T
 ## Latest Updates
 
 
-
 ## Installation
 
 1. Clone the repository:
