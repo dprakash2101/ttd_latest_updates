@@ -1,4 +1,4 @@
-name: Update README with TTD Latest Update
+name: Update README with TTD Latest Updates
 
 on:
   push:
