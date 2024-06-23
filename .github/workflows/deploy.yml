@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - 'README.md' # Ignore pushes where only README.md is changed
+      - 'Readme.md' # Ignore pushes where only README.md is changed
   schedule:
     - cron: "0 0,12 * * *"
 
