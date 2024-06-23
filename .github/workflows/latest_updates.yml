@@ -42,8 +42,8 @@ jobs:
           # Extract the content before "## Latest Updates"
           before_updates=$(sed -n '1,/## Latest Updates/p' Readme.md)
 
-          # Extract the content after the HTML table ending </tbody></table>
-          after_updates=$(sed -n '/## Latest Updates/,$p' Readme.md | sed '1,/<\/tbody><\/table>/d')
+          # Extract the content after "## Latest Updates"
+          after_updates=$(sed -n '/## Latest Updates/,$p' Readme.md | sed '1d')
 
           # Combine the new updates into the README
           echo "$before_updates" > Readme.md
