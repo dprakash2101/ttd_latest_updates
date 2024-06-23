@@ -47,10 +47,10 @@ Postman:
 curl https://ttd-latest-updates-latest.onrender.com/latest-updates
 ```
 #### For Browser:
- [Clickhere for response](https://ttd-latest-updates-latest.onrender.com/latest-updates)
+ [Clickhere](https://ttd-latest-updates-latest.onrender.com/latest-updates)
 
  #### For Swagger File
- [Clickhere for swagger file](https://ttd-latest-updates-latest.onrender.com/api-docs/)
+ [Clickhere](https://ttd-latest-updates-latest.onrender.com/api-docs/)
 
 
 To access the latest updates data in your local host, make a GET request to the following endpoint:
