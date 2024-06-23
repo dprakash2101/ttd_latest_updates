@@ -39,12 +39,10 @@ jobs:
         run: |
           new_updates=$(cat updates_table.html)
 
-          # Remove existing "Latest Updates" section
-          sed -i '/## Latest Updates/,/<!-- The content here will be replaced by the GitHub Action -->/d' Readme.md
-
-          # Add new "Latest Updates" section with updated content
-          echo "## Latest Updates" >> Readme.md
-          echo "$new_updates" >> Readme.md
+          # Append new updates to the existing "Latest Updates" section
+          awk '/## Latest Updates/{f=1} f{if(/<\/table>/)print "            "}{print} /<\/table>/{f=0}' Readme.md > Readme.md.tmp
+          echo "$new_updates" >> Readme.md.tmp
+          mv Readme.md.tmp Readme.md
 
           # Save the new response as the current response for next comparison
           mv new_response.json response.json
