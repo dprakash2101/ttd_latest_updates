@@ -46,8 +46,10 @@ Postman:
 ```bash
 curl https://ttd-latest-updates-latest.onrender.com/latest-updates
 ```
-For Browser:
+#### For Browser:
  [Clickhere for response](https://ttd-latest-updates-latest.onrender.com/latest-updates)
+
+ #### For Swagger File
  [Clickhere for swagger file](https://ttd-latest-updates-latest.onrender.com/api-docs/)
 
 
