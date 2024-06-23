@@ -19,18 +19,8 @@ jobs:
       - name: Fetch latest updates from TTD API
         id: fetch-updates
         run: |
-          curl -s https://ttd-latest-updates-latest.onrender.com/latest-updates > new_response.json
-
-      - name: Compare current and new responses
-        id: compare-responses
-        run: |
-          diff=$(diff -q response.json new_response.json || echo "different")
-          if [[ $diff == "different" ]]; then
-            echo "New updates found. Updating README.md."
-          else
-            echo "No new updates. Exiting."
-            exit 0
-          fi
+          response=$(curl -s https://ttd-latest-updates-latest.onrender.com/latest-updates)
+          echo "$response" > new_response.json
 
       - name: Convert JSON to HTML Table
         id: convert-to-table
@@ -38,7 +28,7 @@ jobs:
           updates=$(jq -r '
             def to_html:
               "<table><thead><tr><th>ID</th><th>Tag</th><th>Data</th><th>Published At</th></tr></thead><tbody>" +
-              (map("<tr><td>" + (.id | tostring) + "</td><td>" + .tag + "</td><td>" + .data + "</td><td>" + .publishedAt + "</td></tr>") | join("")) +
+              (map("<tr><td>" + (.id | tostring) + "</td><td>" + (.tag // "N/A") + "</td><td>" + .data + "</td><td>" + .publishedAt + "</td></tr>") | join("")) +
               "</tbody></table>";
             to_html' new_response.json)
 
@@ -49,21 +39,30 @@ jobs:
         run: |
           new_updates=$(cat updates_table.html)
 
-          # Replace the entire "Latest Updates" section in README.md
-          awk '/## Latest Updates/{p=1} p && /<!-- The content here will be replaced by the GitHub Action -->/{p=0} !p' Readme.md > Readme.md.tmp
-          echo "## Latest Updates" >> Readme.md.tmp
-          echo "$new_updates" >> Readme.md.tmp
+          # Modify Readme.md to update "Latest Updates" section
+          awk '
+            /## Latest Updates/ {f=1} 
+            f && /<\/table>/ {print "            "; f=0} 
+            !f {print}
+            END {if (f) print "            "; print "'"$new_updates"'"}' Readme.md > Readme.md.tmp
+
           mv Readme.md.tmp Readme.md
 
           # Save the new response as the current response for next comparison
           mv new_response.json response.json
 
-          # Commit and push changes
+          # Configure Git
           git config --global user.name '${{ secrets.USERNAME }}'
           git config --global user.email '${{ secrets.USER_EMAIL }}'
-          git add Readme.md response.json
-          git commit -m 'Update TTD Latest Updates in README'
-          git push
+
+          # Commit and push changes if there are updates
+          if [[ $(git status --porcelain) ]]; then
+            git add Readme.md response.json
+            git commit -m 'Update TTD Latest Updates in README'
+            git push
+          else
+            echo "No changes to commit."
+          fi
 
       - name: Check if README was updated
         run: |
