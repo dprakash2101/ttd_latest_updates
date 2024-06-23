@@ -69,5 +69,5 @@ jobs:
         run: |
           git add last_deploy.txt
           git commit -m "Update last deploy time [skip ci]"
-          git pull origin main
+          git pull origin main --rebase=false
           git push origin main
