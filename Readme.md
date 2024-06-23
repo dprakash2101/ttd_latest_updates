@@ -42,13 +42,14 @@ You can access the latest updates from the TTD website through the following end
   Description: Fetches the latest updates from the TTD website.
 
 ### Example
-
+Postman:
 ```bash
 curl https://ttd-latest-updates-latest.onrender.com/latest-updates
 ```
-```bash
-curl https://ttd-latest-updates-latest.onrender.com/api-docs/
-```
+For Browser:
+ [Clickhere for response](https://ttd-latest-updates-latest.onrender.com/latest-updates)
+ [Clickhere for swagger file](https://ttd-latest-updates-latest.onrender.com/api-docs/)
+
 
 To access the latest updates data in your local host, make a GET request to the following endpoint:
 
