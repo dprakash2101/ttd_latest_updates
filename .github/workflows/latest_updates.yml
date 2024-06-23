@@ -28,7 +28,7 @@ jobs:
           updates=$(jq -r '
             def to_html:
               "<table><thead><tr><th>ID</th><th>Tag</th><th>Data</th><th>Published At</th></tr></thead><tbody>" +
-              (map("<tr><td>" + (.id | tostring) + "</td><td>" + .tag + "</td><td>" + .data + "</td><td>" + .publishedAt + "</td></tr>") | join("")) +
+              (map("<tr><td>" + (.id | tostring) + "</td><td>" + (.tag // "N/A") + "</td><td>" + .data + "</td><td>" + .publishedAt + "</td></tr>") | join("")) +
               "</tbody></table>";
             to_html' new_response.json)
 
@@ -42,11 +42,12 @@ jobs:
           # Extract the content before "## Latest Updates"
           before_updates=$(sed -n '1,/## Latest Updates/p' Readme.md)
 
-          # Extract the content after the "## Latest Updates" section
-          after_updates=$(sed -n '/## Latest Updates/,$p' Readme.md | sed '1,/</table>/d')
+          # Extract the content after the HTML table ending </tbody></table>
+          after_updates=$(sed -n '/## Latest Updates/,$p' Readme.md | sed '1,/<\/tbody><\/table>/d')
 
           # Combine the new updates into the README
           echo "$before_updates" > Readme.md
+          echo "## Latest Updates" >> Readme.md
           echo "$new_updates" >> Readme.md
           echo "$after_updates" >> Readme.md
 
