@@ -48,43 +48,6 @@ Postman:
 ```bash
 curl https://ttd-latest-updates-latest.onrender.com/latest-updates
 ```
-## Latest Updates API
-
-<div style="background-color: #f8f9fa; padding: 20px; border-radius: 10px;">
-    <a href="https://ttd-latest-updates-latest.onrender.com/latest-updates" style="color: #007bff; text-decoration: none; font-size: 18px;">
-        <strong>Click here for the Latest Updates</strong>
-    </a>
-</div>
-
-## Swagger File
-
-<div style="background-color: #f8f9fa; padding: 20px; border-radius: 10px;">
-    <a href="https://ttd-latest-updates-latest.onrender.com/api-docs/" style="color: #007bff; text-decoration: none; font-size: 18px;">
-        <strong>Click here to view the Swagger File</strong>
-    </a>
-</div>
-
-To access the latest updates data in your local host, make a GET request to the following endpoint:
-
-```bash
-http://localhost:3000/latest-updates
-```
-This endpoint will return a JSON array containing the latest updates from the TTD website.
-
-To explore the API further and view the available endpoints, you can access the Swagger documentation at:
-
-```bash
-http://localhost:3000/api-docs/
-```
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Author
-
-[Devi Prakash Kandikonda](https://github.com/dprakash2101)
-
 ## Latest Updates
 <table><thead><tr><th>ID</th><th>Tag</th><th>Data</th><th>Published At</th></tr></thead><tbody><tr><td>49</td><td>Arjitha Sevas (Seva e-DIP) Registration Count</td><td>Total number of Registrations received for September - 2024 Srivari Arjitha Sevas e-DIP quota:
 
