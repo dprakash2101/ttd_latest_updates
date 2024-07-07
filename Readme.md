@@ -48,12 +48,21 @@ Postman:
 ```bash
 curl https://ttd-latest-updates-latest.onrender.com/latest-updates
 ```
-#### For Browser:
- [Clickhere](https://ttd-latest-updates-latest.onrender.com/latest-updates)
+## Latest Updates API
 
- #### For Swagger File
- [Clickhere](https://ttd-latest-updates-latest.onrender.com/api-docs/)
+<div style="background-color: #f8f9fa; padding: 20px; border-radius: 10px;">
+    <a href="https://ttd-latest-updates-latest.onrender.com/latest-updates" style="color: #007bff; text-decoration: none; font-size: 18px;">
+        <strong>Click here for the Latest Updates</strong>
+    </a>
+</div>
 
+## Swagger File
+
+<div style="background-color: #f8f9fa; padding: 20px; border-radius: 10px;">
+    <a href="https://ttd-latest-updates-latest.onrender.com/api-docs/" style="color: #007bff; text-decoration: none; font-size: 18px;">
+        <strong>Click here to view the Swagger File</strong>
+    </a>
+</div>
 
 To access the latest updates data in your local host, make a GET request to the following endpoint:
 
