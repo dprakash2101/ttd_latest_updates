@@ -49,11 +49,57 @@ Postman:
 ```bash
 curl https://ttd-latest-updates-latest.onrender.com/latest-updates
 ```
-#### For Browser:
- [Clickhere](https://ttd-latest-updates-latest.onrender.com/latest-updates)
-
- #### For Swagger File
- [Clickhere](https://ttd-latest-updates-latest.onrender.com/api-docs/)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .link-section {
+            margin: 20px 0;
+        }
+        .link-section h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .link-section a {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .link-section a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <title>Links</title>
+</head>
+<body>
+    <div class="container">
+        <div class="link-section">
+            <h2>Latest Updates</h2>
+            <a href="https://ttd-latest-updates-latest.onrender.com/latest-updates" target="_blank">View Latest Updates</a>
+        </div>
+        <div class="link-section">
+            <h2>Swagger File</h2>
+            <a href="https://ttd-latest-updates-latest.onrender.com/api-docs/" target="_blank">View Swagger File</a>
+        </div>
+    </div>
+</body>
+</html>
 
 
 To access the latest updates data in your local host, make a GET request to the following endpoint:
