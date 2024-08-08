@@ -78,14 +78,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 [Devi Prakash Kandikonda](https://github.com/dprakash2101)
 
 ## Latest Updates
-<table><thead><tr><th>ID</th><th>Tag</th><th>Data</th><th>Published At</th></tr></thead><tbody><tr><td>40</td><td>Local Temples (Tallapaka)</td><td>Varalakshmi Vratam Seva Tickets for 16.08.2024 in Sri Padmavathi Ammavari Temple, Tiruchanoor will be available for bookings w.e.f. 09.08.2024 10:00AM.</td><td>2024-08-08T10:22:33.982Z</td></tr><tr><td>42</td><td>Donors Accommodation &  Sevas</td><td>Varalaksmi Vratham (Online Participation) Seva tickets for 16.08.2024 in Sri Padmavathi Ammavari Temple, Tiruchanoor will be available for booking w.e.f. 09.08.2024 10:00 AM.</td><td>2024-08-08T10:24:21.448Z</td></tr><tr><td>49</td><td>Arjitha Sevas (Seva e-DIP) Registration Count</td><td>Total number of Registrations received for October - 2024 Srivari Arjitha Sevas e-DIP quota:
-
-- Thomala seva : **350143**
-- Archana : **344808**
-- Astadala Pada Padmaradhana : **327584**
-- Suprabhatham : **385677**
-
-For Selected List [Click here](https://ttdevasthanams.ap.gov.in/misc/images/v4/2024_07_20_EDIP_SELECTIONS.pdf)</td><td>2024-07-20T04:42:06.823Z</td></tr><tr><td>50</td><td>Sri KRT - Pavitrotsavam</td><td>The Periodical Seva Pavithrotsavam in Sri Kodanda Rama Swamy Temple, Tirupati will be conducted from 31.07.2024 to 02.08.2024, The Seva Tickets will be available for booking w.e.f 25.07.2024 (Thursday) from 4:00 PM.
+<table><thead><tr><th>ID</th><th>Tag</th><th>Data</th><th>Published At</th></tr></thead><tbody><tr><td>40</td><td>Local Temples (Tallapaka)</td><td>Varalakshmi Vratam Seva Tickets for 16.08.2024 in Sri Padmavathi Ammavari Temple, Tiruchanoor will be available for bookings w.e.f. 09.08.2024 10:00AM.</td><td>2024-08-08T10:22:33.982Z</td></tr><tr><td>42</td><td>Donors Accommodation &  Sevas</td><td>Varalaksmi Vratham (Online Participation) Seva tickets for 16.08.2024 in Sri Padmavathi Ammavari Temple, Tiruchanoor will be available for booking w.e.f. 09.08.2024 10:00 AM.</td><td>2024-08-08T10:24:21.448Z</td></tr><tr><td>49</td><td>Additional Angapradakshinam tickets</td><td>Additional 250 tickets of Srivari Angapradakshinam for 10.08.2024 will be available for booking on 09.08.2024 at 12 Noon
+</td><td>2024-07-20T04:42:06.823Z</td></tr><tr><td>50</td><td>Sri KRT - Pavitrotsavam</td><td>The Periodical Seva Pavithrotsavam in Sri Kodanda Rama Swamy Temple, Tirupati will be conducted from 31.07.2024 to 02.08.2024, The Seva Tickets will be available for booking w.e.f 25.07.2024 (Thursday) from 4:00 PM.
 
 Please [Click here](/arjitha-seva/slot-booking?section=pilgrim-details&flowIdentifier=arjitha-seva&templeName=Sri%20Kodanda%20Rama%20Swamy%20Temple&sevaName=Pavithrotsavam)
 
