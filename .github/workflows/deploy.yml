@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Install
         run: npm install
@@ -80,7 +80,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: List files in Postman_Collection directory
         run: ls -R Postman_Collection
@@ -90,4 +90,4 @@ jobs:
         with:
           collection: 'Postman_Collection/TTD.postman_collection.json'
           environment: '' # Optional: Specify the path if you have an environment file
-          output-file: 'Postman_Collection/Results/results.json'
+          report-file: 'Postman_Collection/Results/results.json'
