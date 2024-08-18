@@ -8,6 +8,7 @@ on:
       - 'Readme.md' # Ignore pushes where only README.md is changed
   schedule:
     - cron: "0 0,12 * * *"
+  workflow_dispatch:
 
 jobs:
   Install:
