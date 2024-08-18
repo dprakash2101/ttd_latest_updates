@@ -74,13 +74,21 @@ jobs:
           git commit -m "Update last deploy time [skip ci]"
           git pull origin main --rebase=false
           git push origin main
+
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Run Postman Collection
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'  # Ensure this matches the 'node20' in your action.yml
+      - name: NPM Install
+        run: npm install
+
+      - name: Run Postman Collection Runner
         uses: dprakash2101/postman_collection_runner@v0.0.2.1
         with:
           collection: 'ttd_latest_updates/Postman_Collection/TTD.postman_collection.json'
