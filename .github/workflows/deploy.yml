@@ -81,7 +81,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Postman Collection
-        uses: dprakash2101/postman_collection_runner@v0.0.1
+        uses: dprakash2101/postman_collection_runner@v0.0.2
         with:
           collection: 'ttd_latest_updates/Postman_Collection/TTD.postman_collection.json'
           environment: '' # Optional: Specify the path if you have an environment file
