@@ -83,7 +83,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: List files in Postman_Collection directory
-        run: ls -R Postman_Collection
+        run: ls -R Postman
 
       - name: Run Postman Collection
         uses: dprakash2101/postman_collection_test@v0.0.1
