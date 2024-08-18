@@ -65,7 +65,7 @@ jobs:
           git config --global user.email '${{ secrets.USER_EMAIL }}'
           git add Readme.md response.json
           git diff --cached --quiet || git commit -m 'Update TTD Latest Updates in README'
-          git pull
+          git pull origin main
           git push
 
       - name: Check if README was updated
