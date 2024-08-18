@@ -79,8 +79,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
+        
 
       - name: Run Postman Collection
         uses: dprakash2101/postman_collection_runner@v0.0.1
