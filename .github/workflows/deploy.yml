@@ -73,3 +73,15 @@ jobs:
           git commit -m "Update last deploy time [skip ci]"
           git pull origin main --rebase=false
           git push origin main
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Postman Collection
+        uses: dprakash2101/postman_collection_runner@v0.0.1
+        with:
+          collection: 'ttd_latest_updates/Postman_Collection/TTD.postman_collection.json'
+          environment: '' # Optional: Specify the path if you have an environment file
+          report-file: 'ttd_latest_updates/Results/results.xml'
