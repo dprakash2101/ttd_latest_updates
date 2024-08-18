@@ -74,7 +74,7 @@ jobs:
           git commit -m "Update last deploy time [skip ci]"
           git pull origin main --rebase=false
           git push origin main
-  jobs:
+
   test:
     runs-on: ubuntu-latest
     steps:
