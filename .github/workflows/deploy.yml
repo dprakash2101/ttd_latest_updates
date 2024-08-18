@@ -70,9 +70,9 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          git pull origin main --rebase=false
           git add last_deploy.txt
           git commit -m "Update last deploy time [skip ci]"
-          git pull origin main 
           git push origin main
 
   test-action:
@@ -83,13 +83,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Postman Collection
-        uses: dprakash2101/test_api_xpress@v0.0.1
+        uses: dprakash2101/postman_collection_runner@v0.0.1
         with:
           collection: 'ttd_latest_updates/Postman_Collection/TTD.postman_collection.json'
+          environment: '' # Optional: Specify the path if you have an environment file
           report-file: 'ttd_latest_updates/Results/results.json'
-
-      - name: Upload results
-        uses: actions/upload-artifact@v3
-        with:
-          name: postman-results
-          path: results/report.json
