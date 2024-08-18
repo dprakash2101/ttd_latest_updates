@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "cdc7a34c-eb8d-4e37-ad49-d2a936bc5bd7",
+		"name": "TTD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32085196"
+	},
+	"item": [
+		{
+			"name": "https://ttd-latest-updates-latest.onrender.com/latest-updates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ttd-latest-updates-latest.onrender.com/latest-updates",
+					"protocol": "https",
+					"host": [
+						"ttd-latest-updates-latest",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"latest-updates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ttd-latest-updates-latest.onrender.com/latest-updates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ttd-latest-updates-latest.onrender.com/latest-updates",
+					"protocol": "https",
+					"host": [
+						"ttd-latest-updates-latest",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"latest-updates"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
