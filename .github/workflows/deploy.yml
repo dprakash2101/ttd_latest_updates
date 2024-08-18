@@ -89,3 +89,4 @@ jobs:
           collection: 'Postman_Collection/TTD.postman_collection.json'
           environment: '' # Optional: Specify the path if you have an environment file
           report-file: 'Results/results.json'
+
