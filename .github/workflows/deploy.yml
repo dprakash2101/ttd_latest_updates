@@ -86,6 +86,7 @@ jobs:
       - name: Run Postman Collection
         uses: dprakash2101/postman_collection_test@v0.0.1
         with:
-          collection: 'Postman_Collection\TTD.postman_collection.json'
+          collection: 'Postman_Collection/TTD.postman_collection.json'
           environment: '' # Optional: Specify the path if you have an environment file
-          report-file: 'Results\results.json'
+          report-file: 'Results/results.json'
+
