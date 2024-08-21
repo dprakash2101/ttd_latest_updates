@@ -79,11 +79,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Latest Updates
 <table><thead><tr><th>ID</th><th>Tag</th><th>Data</th><th>Published At</th></tr></thead><tbody><tr><td>40</td><td>Seva DIP Registrations Count</td><td>Seva DIP Selected Count:
-Total number of Registrations received for November-2024 Srivari Arjitha Seavs:
-Thomalaseva: **325033**
-Archana: **319620**
-Astadala Pada Padmaradhana: **308946**
-Suprabhatham: **357186**
+Total number of Registrations received for November-2024 Srivari Arjitha Sevas:
+- Thomalaseva: **325033**
+- Archana: **319620**
+- Astadala Pada Padmaradhana: **308946**
+- Suprabhatham: **357186**
 </td><td>2024-08-21T05:15:03.068Z</td></tr><tr><td>42</td><td>Pushpayagam - Sri TT</td><td>The periodical seva "Pushpayagam" in Srivari Temple, Tirumala will be conducted from 09.11.2024, seva tickets will be available for booking w.e.f 22.08.2024 at 10.00AM</td><td>2024-08-08T10:24:21.448Z</td></tr><tr><td>50</td><td>Arjitha Sevas (Sri TT)</td><td>Srivari Arjitha Seva tickets quota for the Sevas like Kalyanam, Unjal Seva, Arjitha Brahmotsavam, and Sahasra Deepalankara Seva for November-2024 will be available for booking w.e.f. 22.08.2024 10:00 AM. Please [Click here](/arjitha-seva/slot-booking?section=pilgrim-details&flowIdentifier=arjitha-seva&flow=arjitha-seva)
 </td><td>2024-08-14T10:49:13.083Z</td></tr><tr><td>52</td><td>Arjitha Sevas (Virtual)</td><td>The Online Seva (Virtual participation) and connected Darshan quota for Kalyanotsavam, Unjal Seva, Arjitha Brahmotsavam & Sahasra Deepalankara Sevas of Srivari Temple, Tirumala for November-2024 will be available for booking w.e.f. 22.08.2024 3:00 PM.
 Please [click here](/virtual-seva/seva-instructions?templeName=Srivari%20Temple&sevaName=All&flowIdentifier=virtual-seva&flow=virtual-seva)</td><td>2024-08-13T12:08:50.590Z</td></tr><tr><td>53</td><td>Angapradakshinam</td><td>Tirumala Angapradakshinam tokens for November-2024 will be available for booking w.e.f. 23.08.2024 10:00 AM. Please [click here](/apd/slot-booking?flow=apd&flowIdentifier=apd)</td><td>2024-08-14T10:50:43.666Z</td></tr><tr><td>54</td><td>SRIVANI Trust</td><td>Darshan & Accommodation Quota of SRIVANI Trust Donors for the month of NOVEMBER 2024 will be available for booking w.e.f 23. 08. 2024 (Friday) from 11:00 AM onwards.</td><td>2024-08-19T08:22:53.620Z</td></tr><tr><td>56</td><td>PLD</td><td>Senior Citizens / Physically challenged quota for November-2024 will be available for booking w.e.f. 23.08.2024 3:00 PM.
