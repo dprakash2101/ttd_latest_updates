@@ -86,11 +86,7 @@ Total number of Registrations received for November-2024 Srivari Arjitha Sevas:
 - Suprabhatham: **357186**
 
 For Selected List [Click here](https://ttdevasthanams.ap.gov.in/misc/images/v4/2024_08_21_EDIP_SELECTIONS.pdf)</td><td>2024-08-28T15:18:04.365Z</td></tr><tr><td>42</td><td>Angapradikshanam Seva Tickets eDip</td><td>For selected list of Angapradikshanam Seva tickets eDip registrations for Tirupati (Urban) and Tirumala Locals,
-Please **[Click here]**
-(https://ttdevasthanams.ap.gov.in/misc/images/v4/Angapradakshinam_DIP_Results_29AUG24.pdf)**
-
-
-
+Please [Click Here](https://ttdevasthanams.ap.gov.in/misc/images/v4/Angapradakshinam_DIP_Results_29AUG24.pdf).
 
 The selected pilgrims shall pay a deposit amount of Rs.500/- before 30.08.2024 12:00 noon to get the Angapradakshinam Seva confirmation receipt.</td><td>2024-08-28T15:05:51.255Z</td></tr><tr><td>50</td><td>Arjitha Sevas (Sri TT)</td><td>Srivari Arjitha Seva tickets quota for the Sevas like Kalyanam, Unjal Seva, Arjitha Brahmotsavam, and Sahasra Deepalankara Seva for November-2024 has been closed due to quota exhausted.
 </td><td>2024-08-29T12:00:25.619Z</td></tr><tr><td>52</td><td>Arjitha Sevas (Virtual)</td><td>The Online Seva (Virtual participation) and connected Darshan quota for Kalyanotsavam, Unjal Seva, Arjitha Brahmotsavam & Sahasra Deepalankara Sevas of Srivari Temple, Tirumala for November-2024 will be available for booking w.e.f. 22.08.2024 3:00 PM.
