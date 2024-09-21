@@ -84,7 +84,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Astadala Pada Padmaradhana: **337827**
 - Suprabhatham: **383922**
 
-For Selected List [Click here](https://ttdevasthanams.ap.gov.in/misc/images/v4/2024_09_20_EDIP_SELECTIONS.pdf)</td><td>2024-09-17T03:32:36.963Z</td></tr><tr><td>50</td><td>Arjitha Sevas (Sri TT)</td><td>Srivari Arjitha Seva tickets quota for the Sevas like Kalyanam, Unjal Seva, Arjitha Brahmotsavam, and Sahasra Deepalankara Seva for December-2024 will be available for booking w.e.f. 21.09.2024 10:00 AM. Please [Click here](/arjitha-seva/slot-booking?section=pilgrim-details&flowIdentifier=arjitha-seva&flow=arjitha-seva)
+For Selected List [Click here](https://ttdevasthanams.ap.gov.in/misc/images/v4/2024_09_20_EDIP_SELECTIONS.pdf)</td><td>2024-09-17T03:32:36.963Z</td></tr><tr><td>50</td><td>Arjitha Sevas (Sri TT)</td><td>Srivari Arjitha Seva tickets quota for the Sevas like Kalyanam, Unjal Seva, Arjitha Brahmotsavam, and Sahasra Deepalankara Seva for December-2024 have been closed 
 
 
 
