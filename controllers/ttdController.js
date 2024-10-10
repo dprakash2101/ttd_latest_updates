@@ -3,7 +3,7 @@ const axios = require('axios');
 const Update = require('../models/ttdModel');
 
 // URL of the API endpoint
-const url = 'https://ttdevasthanams.ap.gov.in/cms/api/universal-latest-updates';
+const url = 'https://ttdevasthanams.ap.gov.in/cms/api/universal-latest-updates?populate=*';
 
 // Function to fetch and parse the latest updates
 
