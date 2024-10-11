@@ -25,14 +25,15 @@ jobs:
       - name: Convert JSON to HTML Table
         id: convert-to-table
         run: |
-          updates=$(jq -r '
-            def to_html:
-              "<table><thead><tr><th>ID</th><th>Tag</th><th>Data</th><th>Published At</th></tr></thead><tbody>" +
-              (map("<tr><td>" + (.id | tostring) + "</td><td>" + (.tag // "N/A") + "</td><td>" + .data + "</td><td>" + .publishedAt + "</td></tr>") | join("")) +
-              "</tbody></table>";
-            to_html' new_response.json)
-
-          echo "$updates" > updates_table.html
+            updates=$(jq -r '
+              def to_html:
+                "<table><thead><tr><th>ID</th><th>Data</th><th>CTA</th><th>Is Internal Redirection</th><th>Redirection Link</th></tr></thead><tbody>" +
+                (.latestUpdates | map("<tr><td>" + (.id | tostring) + "</td><td>" + .data + "</td><td>" + (.cta // "N/A") + "</td><td>" + (.is_internal_redirection | tostring) + "</td><td>" + (.redirectionLink // "N/A") + "</td></tr>") | join("")) +
+                "</tbody></table>";
+              to_html' new_response.json)
+        
+            echo "$updates" > updates_table.html
+        
 
       - name: Update Readme.md
         id: update-readme
