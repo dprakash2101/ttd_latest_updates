@@ -4,20 +4,20 @@
   "description": "A webscrapper which scrapes info from latest updates of ttd website.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Devi Prakash Kandikonda",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.6.8",
-    "cheerio": "^1.0.0-rc.12",
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
     "cors": "^2.8.5",
-    "express": "^4.19.1",
+    "express": "^4.21.1",
     "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.0"
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.7"
   }
 }
