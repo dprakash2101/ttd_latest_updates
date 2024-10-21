@@ -86,7 +86,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For Selected List [Click here](https://ttdevasthanams.ap.gov.in/misc/images/v4/2024_10_21_EDIP_SELECTIONS.pdf)
 
-</td><td>Seva E-dip</td><td>false</td><td>N/A</td></tr><tr><td>15</td><td>For selected list of Angapradakshinam Seva tickets eDip registrations for Tirupati (Urban & Rural) and Tirumala Locals,
+
+The payment link for the selected pilgrims is available upto 12:00 Noon of 23-10-2024. </td><td>Seva E-dip</td><td>false</td><td>N/A</td></tr><tr><td>15</td><td>For selected list of Angapradakshinam Seva tickets eDip registrations for Tirupati (Urban & Rural) and Tirumala Locals,
 Please [Click Here](https://ttdevasthanams.ap.gov.in/misc/images/v4/Angapradakshinam_DIP_Results_17-10-2024.pdf)
  
 </td><td>Angapradakshinam for locals</td><td>true</td><td>N/A</td></tr><tr><td>5</td><td>The Online Seva (Virtual participation) and connected Darshan quota for Kalyanothsavam, Unjal Seva, Arjitha Brahmotsavam & Sahasra Deepalankara Sevas of Srivari Temple, Tirumala for January 2025 will be available for booking w.e.f. 22.10.2024 at 3:00 PM. Please [Click Here](/virtual-seva/seva-instructions?templeName=Srivari%20Temple&sevaName=All&flowIdentifier=virtual-seva&flow=virtual-seva)</td><td>Virtual Seva</td><td>true</td><td>N/A</td></tr><tr><td>9</td><td>Srivari Arjitha Seva tickets quota for the Sevas like Kalyanam, Unjal Seva, Arjitha Brahmotsavam, and Sahasra Deepalankara Seva for  January-2025 will be available for booking w.e.f. 22.10.2024 at 10:00 AM. Please [Click here](/arjitha-seva/slot-booking?section=pilgrim-details&flowIdentifier=arjitha-seva&flow=arjitha-seva)</td><td>Arjitha seva</td><td>true</td><td>N/A</td></tr><tr><td>6</td><td>Tirumala Angapradakshinam tokens for January-2025 will be available for booking w.e.f. 23.10.2024 at 10:00 AM.
