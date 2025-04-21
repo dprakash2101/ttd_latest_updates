@@ -83,6 +83,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Archana: **377815**
 - Astadala Pada Padmaradhana: **364108**
 - Suprabhatham: **417067**
+For Selected List [Click here](https://ttdevasthanams.ap.gov.in/misc/images/v4/2025_04_21_EDIP_SELECTIONS.pdf)
 </td><td>EDIP</td><td>false</td><td>N/A</td></tr><tr><td>48</td><td>Srivari Arjitha Seva tickets quota for the Sevas like Kalyanam, Unjal Seva, Arjitha Brahmotsavam, and Sahasra Deepalankara Seva for July-2025 will be available for booking w.e.f. 22.04.2025, 10:00 AM. Please [Click Here](
 /arjitha-seva/slot-booking?section=pilgrim-details&flowIdentifier=arjitha-seva&flow=arjitha-seva)
 
