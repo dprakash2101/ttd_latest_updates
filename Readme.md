@@ -78,9 +78,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 [Devi Prakash Kandikonda](https://github.com/dprakash2101)
 
 ## Latest Updates
-<table><thead><tr><th>ID</th><th>Data</th><th>CTA</th><th>Is Internal Redirection</th><th>Redirection Link</th></tr></thead><tbody><tr><td>80</td><td>Om Namo Venkatesaya
- 
-The Online quota of General Srivari Seva, Navaneetha Seva, Parakamani Seva and Group Leader Seva for Tirumala for the month of July 2025 will be released at 11AM on 29-05-2025.</td><td>Srivari Seva </td><td>null</td><td>N/A</td></tr><tr><td>65</td><td>Darshan & Accommodation Quota to the Trusts / Schemes Donors for the month of AUGUST – 2025 will be available for booking w.e.f 28. 05. 2025 from 11:30 AM onwards</td><td>Trusts/Schemes Donors</td><td>null</td><td>N/A</td></tr><tr><td>67</td><td>For selected list of Angapradakshinam Seva tickets eDip registrations for Tirupati (Urban & Rural) and Tirumala Locals,
+<table><thead><tr><th>ID</th><th>Data</th><th>CTA</th><th>Is Internal Redirection</th><th>Redirection Link</th></tr></thead><tbody><tr><td>67</td><td>For selected list of Angapradakshinam Seva tickets eDip registrations for Tirupati (Urban & Rural) and Tirumala Locals,
 Please [Click Here](https://ttdevasthanams.ap.gov.in/misc/images/v4/Angapradakshinam_DIP_Results_05-06-2025.pdf)
  
 The selected pilgrims shall pay a deposit amount of Rs. 500/- before 12:00 PM on 06.06.2025, to confirm their Angapradakshinam Seva.
