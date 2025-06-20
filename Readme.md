@@ -78,7 +78,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 [Devi Prakash Kandikonda](https://github.com/dprakash2101)
 
 ## Latest Updates
-<table><thead><tr><th>ID</th><th>Data</th><th>CTA</th><th>Is Internal Redirection</th><th>Redirection Link</th></tr></thead><tbody><tr><td>69</td><td>Total Srivari Seva Electronic Dip Registrations received for September-2025:
+<table><thead><tr><th>ID</th><th>Data</th><th>CTA</th><th>Is Internal Redirection</th><th>Redirection Link</th></tr></thead><tbody><tr><td>69</td><td>Total number of Seva E - Dip Registrations received for September-2025 Srivari Arjitha Sevas :
 
 Thomalaseva:  **418879**
 
@@ -86,7 +86,9 @@ Archana:  **414164**
 
 Astadala Pada Padmaradhana:  **399457**
 
-Suprabhatham:  **460145**</td><td>Srivari Arjitha Seva tickets Electronic DIP Registrations</td><td>null</td><td>N/A</td></tr><tr><td>67</td><td>For selected list of Angapradakshinam Seva tickets eDip registrations for Tirupati (Urban & Rural) and Tirumala Locals, Please [Click here](https://ttdevasthanams.ap.gov.in/assets/misc/images/v4/Angapradakshinam_DIP_Results_19-06-2025.pdf?updated_at=2025-06-19T11:09:03.294Z) 
+Suprabhatham:  **460145**
+
+For Selected List [Click Here](https://ttdevasthanams.ap.gov.in/assets/misc/images/v4/PROD_DIP_SELECTION_2025_06_20_2025_06_20_EDIP_SELECTIONS.pdf?updated_at=2025-06-20T06:41:44.196Z)</td><td>Srivari Arjitha Seva tickets Electronic DIP Registrations</td><td>false</td><td>N/A</td></tr><tr><td>67</td><td>For selected list of Angapradakshinam Seva tickets eDip registrations for Tirupati (Urban & Rural) and Tirumala Locals, Please [Click here](https://ttdevasthanams.ap.gov.in/assets/misc/images/v4/Angapradakshinam_DIP_Results_19-06-2025.pdf?updated_at=2025-06-19T11:09:03.294Z) 
 
 The selected pilgrims shall pay a deposit amount of Rs. 500/- before 12:00 PM on 20.06.2025, to confirm their Angapradakshinam Seva. </td><td>Angapradakshinam Seva tickets eDip registrations</td><td>false</td><td>N/A</td></tr><tr><td>70</td><td>Srivari Arjitha Seva tickets quota for the Sevas like Kalyanam, Unjal Seva, Arjitha Brahmotsavam, and Sahasra Deepalankara Seva for September-2025 will be available for booking w.e.f. 21.06.2025, 10:00 AM. Please [Click here](/arjitha-seva/slot-booking?section=pilgrim-details&flowIdentifier=arjitha-seva&flow=arjitha-seva)</td><td>Srivari Arjitha Sevas</td><td>true</td><td>N/A</td></tr><tr><td>71</td><td>The Online Seva (Virtual participation) and connected Darshan quota for Kalyanothsavam, Unjal Seva, Arjitha Brahmotsavam & Sahasra Deepalankara Sevas of Srivari Temple, Tirumala for September-2025 will be available for booking w.e.f. 21.06.2025, 3:00 PM. Please [Click Here](/virtual-seva/seva-instructions?templeName=Srivari%20Temple&sevaName=All&flowIdentifier=virtual-seva)</td><td>The Online Seva (Virtual participation)</td><td>true</td><td>N/A</td></tr><tr><td>72</td><td>Tirumala Angapradakshinam tokens for September-2025 will be available for booking w.e.f. 23.06.2025, 10:00 AM. Please [Click here](/apd/slot-booking?flow=apd&flowIdentifier=apd)
 
