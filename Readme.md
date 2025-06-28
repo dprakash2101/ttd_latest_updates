@@ -78,7 +78,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 [Devi Prakash Kandikonda](https://github.com/dprakash2101)
 
 ## Latest Updates
-<table><thead><tr><th>ID</th><th>Data</th><th>CTA</th><th>Is Internal Redirection</th><th>Redirection Link</th></tr></thead><tbody><tr><td>82</td><td>Darshan & Accommodation Quota to the Trusts / Schemes Donors for the month of SEPTEMBER – 2025 will be available for booking w.e.f 30. 06. 2025 from 11:30 AM onwards</td><td>Trusts / Schemes</td><td>null</td><td>N/A</td></tr><tr><td>67</td><td>For selected list of Angapradakshinam Seva tickets eDip registrations for Tirupati (Urban & Rural) and Tirumala Locals, Please [Click Here](https://ttdevasthanams.ap.gov.in/assets/misc/images/v4/Angapradakshinam_DIP_Results_26-06-2025.pdf)
+<table><thead><tr><th>ID</th><th>Data</th><th>CTA</th><th>Is Internal Redirection</th><th>Redirection Link</th></tr></thead><tbody><tr><td>82</td><td>Darshan & Accommodation Quota to the Trusts / Schemes Donors for the month of SEPTEMBER – 2025 will be available for booking w.e.f 30.06.2025 from 11:30 AM onwards</td><td>Trusts / Schemes</td><td>null</td><td>N/A</td></tr><tr><td>67</td><td>For selected list of Angapradakshinam Seva tickets eDip registrations for Tirupati (Urban & Rural) and Tirumala Locals, Please [Click Here](https://ttdevasthanams.ap.gov.in/assets/misc/images/v4/Angapradakshinam_DIP_Results_26-06-2025.pdf)
 
 The selected pilgrims shall pay a deposit amount of Rs. 500/- before 12:00 PM on 27.06.2025, to confirm their Angapradakshinam Seva. 
 
