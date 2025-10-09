@@ -78,7 +78,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 [Devi Prakash Kandikonda](https://github.com/dprakash2101)
 
 ## Latest Updates
-<table><thead><tr><th>ID</th><th>Data</th><th>CTA</th><th>Is Internal Redirection</th><th>Redirection Link</th></tr></thead><tbody><tr><td>116</td><td>Angapradakshinam Seva tickets eDip registrations for Tirupati (Urban and Rural) and Tirumala locals (only) for 11.10.2025 (Saturday) will be available between 10:00 a.m. to 4:00 p.m. on 09.10.2025. Please [Click Here](/agp/dashboard?flow=agp&flowIdentifier=agp)</td><td>Angapradakshinam Seva tickets eDip registrations</td><td>true</td><td>N/A</td></tr><tr><td>109</td><td>Om Namo Venkatesaya
+<table><thead><tr><th>ID</th><th>Data</th><th>CTA</th><th>Is Internal Redirection</th><th>Redirection Link</th></tr></thead><tbody><tr><td>116</td><td>For selected list of Angapradakshinam Seva tickets eDip registrations for Tirupati (Urban & Rural) and Tirumala Locals, Please [Click here](https://ttdevasthanams.ap.gov.in/assets/misc/images/v4/Angapradakshinam_DIP_Results_09-10-2025.pdf?updated_at=2025-10-09T11:14:47.372Z) 
+
+The selected pilgrims shall pay a deposit amount of Rs. 500/- before 12:00 PM on 10.10.2025, to confirm their Angapradakshinam Seva</td><td>Angapradakshinam Seva tickets eDip registrations</td><td>false</td><td>N/A</td></tr><tr><td>109</td><td>Om Namo Venkatesaya
  
 The Online quota of General Srivari Seva for Tirumala and Tirupati, Navaneeta Seva, Parakamani Seva and Group Supervisor Seva for the month of November - 2025 will be released at 11AM on 30-09-2025.</td><td>Srivari Seva</td><td>null</td><td>N/A</td></tr><tr><td>91</td><td>There is no change in the reporting day of Parakamani Sevaks.
  
