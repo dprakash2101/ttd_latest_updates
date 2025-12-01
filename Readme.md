@@ -78,10 +78,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 [Devi Prakash Kandikonda](https://github.com/dprakash2101)
 
 ## Latest Updates
-<table><thead><tr><th>ID</th><th>Data</th><th>CTA</th><th>Is Internal Redirection</th><th>Redirection Link</th></tr></thead><tbody><tr><td>114</td><td>Vaikunta Dwara Darshanam - Electronic DIP registrations for 30.12.2025 (Vaikunta Ekadasi), 31.12.2025 (Vaikunta Dwadasi), and 01.01.2026 will be open from 27.11.2025 at 10:00 AM and will remain available until 01.12.2025 at 05:00 PM.
-
-The Electronic DIP results will be published on 02.12.2025 at 02:00 PM.
-Please [Click Here](/seva-dip/dashboard?flow=seva-dip&flowIdentifier=seva-dip)</td><td>Vaikunta Dwara Darshanam e-DIP</td><td>true</td><td>N/A</td></tr><tr><td>126</td><td>For selected list of Angapradakshinam Seva tickets eDip registrations for Tirupati (Urban & Rural), Tirumala, Chandragiri Mandal and Renigunta Mandal locals , Please [Click here](https://ttdevasthanams.ap.gov.in/assets/misc/images/v4/Angapradakshinam_DIP_Results_27-11-2025.pdf?updated_at=2025-11-27T10:43:39.763Z)
+<table><thead><tr><th>ID</th><th>Data</th><th>CTA</th><th>Is Internal Redirection</th><th>Redirection Link</th></tr></thead><tbody><tr><td>114</td><td>Vaikunta Dwara Darshanam - Electronic Dip Registrations are closed. The Electronic DIP results will be published by 02.12.2025 02:00 PM.</td><td>Vaikunta Dwara Darshanam e-DIP</td><td>null</td><td>N/A</td></tr><tr><td>126</td><td>For selected list of Angapradakshinam Seva tickets eDip registrations for Tirupati (Urban & Rural), Tirumala, Chandragiri Mandal and Renigunta Mandal locals , Please [Click here](https://ttdevasthanams.ap.gov.in/assets/misc/images/v4/Angapradakshinam_DIP_Results_27-11-2025.pdf?updated_at=2025-11-27T10:43:39.763Z)
  
 The selected pilgrims shall pay a deposit amount of Rs. 500/- before 12:00 PM on 28.11.2025, to confirm their Angapradakshinam Seva.</td><td>Angapradakshinam Seva tickets eDip registrations</td><td>false</td><td>N/A</td></tr><tr><td>129</td><td>Om Namo Venkatesaya
  
