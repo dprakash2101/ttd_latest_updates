@@ -79,7 +79,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Latest Updates
 <table><thead><tr><th>ID</th><th>Data</th><th>CTA</th><th>Is Internal Redirection</th><th>Redirection Link</th></tr></thead><tbody><tr><td>114</td><td>Vaikunta Dwara Darshanam – Electronic Dip results for 30.12.2025(Vaikunta Ekadasi), 31.12.2025(Vaikunta Dwadasi) and 01.01.2026 have been published. Please [Click Here](https://ttdevasthanams.ap.gov.in/assets/misc/images/v4/Audit_Report_Vaikunta_Dwara_Darshanam.pdf?updated_at=2025-12-02T08:30:48.293Z) to view the list of selected Pilgrims.
-</td><td>Vaikunta Dwara Darshanam e-DIP</td><td>false</td><td>N/A</td></tr><tr><td>129</td><td>Om Namo Venkatesaya
+</td><td>Vaikunta Dwara Darshanam e-DIP</td><td>false</td><td>N/A</td></tr><tr><td>130</td><td>Angapradakshinam Seva e-DIP ticket registrations for Tirupati (Urban & Rural), Tirumala, Chandragiri Mandal and Renigunta Mandal locals (only) for 06.12.2025 (Saturday) will be available between 10:00 a.m. and 4:00 p.m. on 04.12.2025. Please [Click Here](/agp/dashboard?flow=agp&flowIdentifier=agp)</td><td>Angapradakshinam Seva tickets eDip registrations</td><td>true</td><td>N/A</td></tr><tr><td>129</td><td>Om Namo Venkatesaya
  
 The Online Quota of General Srivari Seva for Tirumala and Tirupati, Navaneeta Seva, Parakamani Seva for the month of January - 2026 will be released at 3 PM on 26.11.2025.
  
