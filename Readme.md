@@ -80,9 +80,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Latest Updates
 <table><thead><tr><th>ID</th><th>Data</th><th>CTA</th><th>Is Internal Redirection</th><th>Redirection Link</th></tr></thead><tbody><tr><td>132</td><td>Om Namo Venkatesaya
 
-Srivari Devotees who could not get Vaikuntha Dwara Darshan tickets through the dip system will have the opportunity to have darshan of Sri Venkateswara Swamy through the Sarva Darshan queue on any day between January 2 and January 8. – TTD</td><td>Vaikunta Dwara Darshanam</td><td>null</td><td>N/A</td></tr><tr><td>133</td><td>Vaikunta Dwara Darshanam (for Locals) Electronic DIP registrations for 06.01.2026, 07.01.2026, and 08.01.2026 will be open from 25.12.2025 at 10:00 AM to 27.12.2025 at 05:00 PM. Please [Click Here](/seva-dip/dashboard?flow=seva-dip&flowIdentifier=seva-dip)
+Srivari Devotees who could not get Vaikuntha Dwara Darshan tickets through the dip system will have the opportunity to have darshan of Sri Venkateswara Swamy through the Sarva Darshan queue on any day between January 2 and January 8. – TTD</td><td>Vaikunta Dwara Darshanam</td><td>null</td><td>N/A</td></tr><tr><td>133</td><td>
+Vaikunta Dwara Darshanam (for Locals) – Electronic Dip results for 06.01.2026, 07.01.2026 and 08.01.2026 have been published. Please [Click Here](https://ttdevasthanams.ap.gov.in/assets/misc/images/v4/audit_report_Vaikunta_Dwara_Darshanam_20251229_103444.pdf?updated_at=2025-12-29T08:15:56.534Z) to view the list of selected pilgrims
  
-The Electronic DIP results will be published on 29.12.2025 at 02:00 PM</td><td>Vaikunta Dwara Darshanam (for Locals)</td><td>true</td><td>N/A</td></tr><tr><td>129</td><td>Om Namo Venkatesaya
+</td><td>Vaikunta Dwara Darshanam (for Locals)</td><td>false</td><td>N/A</td></tr><tr><td>129</td><td>Om Namo Venkatesaya
  
 The Online Quota of General Srivari Seva for Tirumala and Tirupati, Navaneeta Seva, Parakamani Seva for the month of February - 2026 will be released at 3 PM on 25.12.2025.
  
