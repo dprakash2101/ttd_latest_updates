@@ -88,21 +88,21 @@ General Sevaks have to report on the same day of their Seva booking date for bot
  
 Parakamani Sevaks have to report one day before  their seva booking date  in Tirumala between 2 pm and 4 pm.</td><td>Srivari Seva General</td><td>null</td><td>N/A</td></tr><tr><td>155</td><td>Om Namo Venkatesaya
  
-With a noble intention to widen Srivari Seva Voluntary Service activities in its outside  temples also, for the FIRST time TTD is launching the Srivari Seva initially in the following temples for April 2026 will be released at 3 PM on 28.02.2026.
+With a noble intention to widen Srivari Seva Voluntary Service activities in its outside temples also, for the FIRST time TTD is launching the Srivari Seva initially in the following temples for April 2026 which will be released at 3 PM on 28.02.2026.
  
 Interested local devotees of the respective areas who shall offer selfless services to the fellow devotees can register online for rendering SRIVARI SEVA in the respective temples and beget the benign blessings of the presiding deities.
  
-List of TTD temples:
+List of TTD temples in the following locations:
  
-Chennai
-Hyderabad
-Bhuvaneswar
-Visakhapatnam
-Upamaka
-kanyakumari
-Bengaluru
-Vontimitta
- 
+Chennai,
+Hyderabad,
+Bhuvaneswar,
+Visakhapatnam,
+Upamaka,
+Kanyakumari,
+Bengaluru,
+Vontimitta,
+
 Reporting Days:
  
 General Srivari Sevaks have to report on the same day of their Seva booking date in the respected temple premises to the concerned Temple reporting In-charges.</td><td>Srivari Seva Local</td><td>null</td><td>N/A</td></tr><tr><td>146</td><td>Sri Srinivasa Divyanugraha Visesha Homam at Saptha Gau Pradhakshina shala, Alipiri Tickets for the month of March-2026 will be available for booking w.e.f. 25.02.2026, 10.00 AM. Please [Click Here](/arjitha-seva/slot-booking?section=pilgrim-details&flowIdentifier=arjitha-seva&templeName=Sapthagiri%20Gau%20Pradakshina%20Shala&sevaName=Sri%20Srinivasa%20Divyaanugraha%20Homam)</td><td>Homam</td><td>true</td><td>N/A</td></tr><tr><td>76</td><td>Sri Padmavathi Ammavari Temple, Tiruchanoor Special Entry Darshan (Rs. 200/-) tickets for March-2026 will be available for booking w.e.f, 24.02.2026, 10:00 AM. Please [Click Here](/spat/slot-booking?flow=spat&flowIdentifier=spat)
