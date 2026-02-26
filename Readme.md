@@ -78,45 +78,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 [Devi Prakash Kandikonda](https://github.com/dprakash2101)
 
 ## Latest Updates
-<table><thead><tr><th>ID</th><th>Data</th><th>CTA</th><th>Is Internal Redirection</th><th>Redirection Link</th></tr></thead><tbody><tr><td>153</td><td>Angapradakshinam Seva e-DIP ticket registrations for Tirupati (Urban & Rural), Tirumala, Chandragiri Mandal and Renigunta Mandal locals (only) for 28.02.2026 (Saturday) will be available between 10:00 a.m. and 4:00 p.m. on 26.02.2026. Please [Click Here](/agp/dashboard?flow=agp&flowIdentifier=agp)</td><td>Angapradakshinam (Locals)</td><td>true</td><td>N/A</td></tr><tr><td>154</td><td>Om Namo Venkatesaya
- 
-The Online Quota of General Srivari Seva for Tirumala and Tirupati, Navaneeta Seva, Parakamani Seva for the month of April - 2026 will be released at 11 AM on 28.02.2026.
- 
-Reporting Days:
- 
-General Sevaks have to report on the same day of their Seva booking date for both Tirupati and Tirumala.
- 
-Parakamani Sevaks have to report one day before  their seva booking date  in Tirumala between 2 pm and 4 pm.</td><td>Srivari Seva General</td><td>null</td><td>N/A</td></tr><tr><td>155</td><td>Om Namo Venkatesaya
- 
-With a noble intention to widen Srivari Seva Voluntary Service activities in its outside temples also, for the FIRST time TTD is launching the Srivari Seva initially in the following temples for April 2026 which will be released at 3 PM on 28.02.2026.
- 
-Interested local devotees of the respective areas who shall offer selfless services to the fellow devotees can register online for rendering SRIVARI SEVA in the respective temples and beget the benign blessings of the presiding deities.
- 
-List of TTD temples in the following locations:
- 
-Chennai,
-Hyderabad,
-Bhuvaneswar,
-Visakhapatnam,
-Upamaka,
-Kanyakumari,
-Bengaluru,
-Vontimitta,
 
-Reporting Days:
- 
-General Srivari Sevaks have to report on the same day of their Seva booking date in the respected temple premises to the concerned Temple reporting In-charges.</td><td>Srivari Seva Local</td><td>null</td><td>N/A</td></tr><tr><td>145</td><td>TTD - Local Temples Seva Quota for March-2026 will be available for booking w.e.f  25.02.2026 at 10:00 AM. Please [Click Here](/arjitha-seva/slot-booking?section=pilgrim-details&flowIdentifier=arjitha-seva&templeName=Sri%20Padmavathi%20Ammavari%20Temple&sevaName=All)</td><td>Local Temples</td><td>true</td><td>N/A</td></tr><tr><td>146</td><td>Sri Srinivasa Divyanugraha Visesha Homam at Saptha Gau Pradhakshina shala, Alipiri Tickets for the month of March-2026 have been completed.</td><td>Homam</td><td>true</td><td>N/A</td></tr><tr><td>76</td><td>Sri Padmavathi Ammavari Temple, Tiruchanoor Special Entry Darshan (Rs. 200/-) tickets for March-2026 will be available for booking w.e.f, 24.02.2026, 10:00 AM. Please [Click Here](/spat/slot-booking?flow=spat&flowIdentifier=spat)
-</td><td>Special Entry Darshan (Sri PAT)</td><td>true</td><td>N/A</td></tr><tr><td>95</td><td>The Online Seva (Virtual participation) and connected Darshan quota for Kalyanothsavam, Unjal Seva, Arjitha Brahmotsavam & Sahasra Deepalankara Sevas of Srivari Temple, Tirumala for May-2026 will be available for booking w.e.f. 21.02.2026, 3:00 PM. Please [Click Here](/virtual-seva/seva-instructions?templeName=Srivari%20Temple&sevaName=All&flowIdentifier=virtual-seva&flow=virtual-seva)</td><td>Virtual Seva</td><td>true</td><td>N/A</td></tr><tr><td>144</td><td>Tirumala and Tirupati Accommodation Quota for May-2026 will be available for booking w.e.f. 24.02.2026, 03:00 PM. Please [Click Here](/accommodation/instructions?flow=acc&flowIdentifier=acc)</td><td>Accommodation</td><td>true</td><td>N/A</td></tr><tr><td>142</td><td>Senior Citizens / Physically challenged quota for May-2026 has been completed.</td><td>Senior Citizens / Physically challenged </td><td>true</td><td>N/A</td></tr><tr><td>143</td><td>Special Entry Darshan (Rs.300) tickets for May-2026 have been completed.</td><td>Special Entry Darshan</td><td>true</td><td>N/A</td></tr><tr><td>141</td><td>Tirumala Angapradakshinam tokens for May-2026 have been completed.</td><td>Angapradakshinam</td><td>true</td><td>N/A</td></tr><tr><td>138</td><td>Total number of Seva E - Dip Registrations received for May-2026 and click below for selected list : 
-
-Thomalaseva: **659969**
-
-Archana: **651444** 
-
-Astadala Pada Padmaradhana: **621327** 
-
-Suprabhatham: **732643** 
-
-[Click Here](https://ttdevasthanams.ap.gov.in/assets/misc/images/v4/PROD_DIP_SELECTION_2026_02_20_2026_02_20_EDIP_SELECTIONS.pdf)</td><td>Seva E-Dip</td><td>false</td><td>N/A</td></tr><tr><td>139</td><td>Srivari Arjitha Seva tickets quota for the Sevas like Kalyanam, Unjal Seva, Arjitha Brahmotsavam, and Sahasra Deepalankara Seva for May-2026 has been completed.</td><td>Srivari Arjitha Seva</td><td>true</td><td>N/A</td></tr><tr><td>152</td><td>Darshan & Accommodation Quota to the TRUSTS / SCHEMES donors for the month MAY 2026 will be available for booking w.e.f 26.02.2026, 11:30 AM onwards</td><td>TRUSTS / SCHEMES</td><td>null</td><td>N/A</td></tr><tr><td>106</td><td>SRIVANI Trust (Rs.10,000/-) Current booking Break Darshan tickets (800 Nos. per day) will be available through online mode every day from 09:00 AM to 02:00 PM for same-day darshan at 4:00 PM, with effect from 09.01.2026
-
-
-</td><td>Srivani Trust Online</td><td>false</td><td>N/A</td></tr><tr><td>11</td><td>To generate Digital passbook for the donations made before September 2016, please [click here](https://tirupatibalaji.ap.gov.in/#/donorPassbook)</td><td>N/A</td><td>null</td><td>N/A</td></tr><tr><td>12</td><td>The Advance booking Arjitha Seva ticket holders of Sahasrakalasabhishekam, Vishesha Pooja, Nijapada darshanam are requested to avail Break Darshan or to get refund instead of Seva for their booking made in advance. Please [click here](https://arjithaseva.tirupatibalaji.ap.gov.in/#/) to avail break darshan or to get refund.</td><td>N/A</td><td>null</td><td>N/A</td></tr><tr><td>13</td><td>To enable self service for the existing    donors, please [Click here](https://tirupatibalaji.ap.gov.in/#/donorSelfservice) </td><td>donor self service</td><td>null</td><td>N/A</td></tr></tbody></table>
