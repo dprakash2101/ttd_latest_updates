@@ -78,7 +78,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 [Devi Prakash Kandikonda](https://github.com/dprakash2101)
 
 ## Latest Updates
-<table><thead><tr><th>ID</th><th>Data</th><th>CTA</th><th>Is Internal Redirection</th><th>Redirection Link</th></tr></thead><tbody><tr><td>153</td><td>Angapradakshinam Seva e-DIP ticket registrations for Tirupati (Urban & Rural), Tirumala, Chandragiri Mandal and Renigunta Mandal locals (only) for 14.03.2026 (Saturday) will be available between 10:00 a.m. and 4:00 p.m. on 12.03.2026. Please [Click Here](/agp/dashboard?flow=agp&flowIdentifier=agp)</td><td>Angapradakshinam (Locals)</td><td>true</td><td>N/A</td></tr><tr><td>154</td><td>Om Namo Venkatesaya
+<table><thead><tr><th>ID</th><th>Data</th><th>CTA</th><th>Is Internal Redirection</th><th>Redirection Link</th></tr></thead><tbody><tr><td>153</td><td>For selected list of Angapradakshinam Seva tickets eDip registrations for Tirupati (Urban & Rural), Tirumala, Chandragiri Mandal and Renigunta Mandal locals , Please [Click here](https://ttdevasthanams.ap.gov.in/assets/misc/images/v4/Angapradakshinam_DIP_Results_12-03-2026.pdf)
+ 
+The selected pilgrims shall pay a deposit amount of Rs. 500/- before 12:00 PM on 13.03.2026, to confirm their Angapradakshinam Seva.</td><td>Angapradakshinam (Locals)</td><td>false</td><td>N/A</td></tr><tr><td>154</td><td>Om Namo Venkatesaya
  
 The Online Quota of General Srivari Seva for Tirumala and Tirupati, Navaneeta Seva, Parakamani Seva for the month of April - 2026 will be released at 11 AM on 28.02.2026.
  
