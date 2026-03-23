@@ -96,11 +96,13 @@ The selected pilgrims shall pay a deposit amount of Rs. 500/- before 12:00 PM on
 The Online Quota of General Srivari Seva for Tirumala and Tirupati, Navaneeta Seva, Parakamani Seva for the month of May - 2026 will be released at 3PM on 25.03.2026.
  
 Reporting Days:
+
 General Sevaks have to report on the same day of their Seva booking date for both Tirupati and Tirumala.
  
-Parakamani Sevaks have to report one day before  their seva booking date  in Tirumala between 2 pm and 4 pm.
+Parakamani Sevaks have to report one day before their seva booking date in Tirumala between 2 pm and 4 pm.
  
 Note:
+
 Profile creation is also available for Sevaks.</td><td>Srivari Seva</td><td>null</td><td>N/A</td></tr><tr><td>161</td><td>Om Namo Venkatesaya
  
 The Online Quota of General Srivari Seva for Local SV Temples of Chennai,
@@ -113,4 +115,5 @@ Bengaluru and
 Vontimitta for May 2026 will be released at 3 PM on 25.03.2026.
  
 Reporting Days:
+
 General Srivari Sevaks have to report on the same day of their Seva booking date in the respected temple premises to concern reporting in-charges.</td><td>Srivari Seva for Locals</td><td>null</td><td>N/A</td></tr><tr><td>11</td><td>To generate Digital passbook for the donations made before September 2016, please [click here](https://tirupatibalaji.ap.gov.in/#/donorPassbook)</td><td>N/A</td><td>null</td><td>N/A</td></tr><tr><td>12</td><td>The Advance booking Arjitha Seva ticket holders of Sahasrakalasabhishekam, Vishesha Pooja, Nijapada darshanam are requested to avail Break Darshan or to get refund instead of Seva for their booking made in advance. Please [click here](https://arjithaseva.tirupatibalaji.ap.gov.in/#/) to avail break darshan or to get refund.</td><td>N/A</td><td>null</td><td>N/A</td></tr><tr><td>13</td><td>To enable self service for the existing    donors, please [Click here](https://tirupatibalaji.ap.gov.in/#/donorSelfservice) </td><td>donor self service</td><td>null</td><td>N/A</td></tr></tbody></table>
