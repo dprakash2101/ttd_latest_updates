@@ -1,23 +1,31 @@
 {
-  "name": "ttdwebscrapper",
-  "version": "1.0.0",
-  "description": "A webscrapper which scrapes info from latest updates of ttd website.",
+  "name": "ttd-latest-updates",
+  "version": "2.0.0",
+  "description": "API and Dashboard for real-time latest updates from Tirumala Tirupati Devasthanams (TTD) website.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Devi Prakash Kandikonda",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dprakash2101/ttd_latest_updates"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
-    "axios": "^1.7.7",
+    "axios": "1.7.7",
     "cheerio": "^1.0.0",
     "cors": "^2.8.5",
-    "express": "^4.21.1",
+    "express": "^4.21.2",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.9"
   }
 }
