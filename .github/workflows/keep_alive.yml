@@ -1,0 +1,57 @@
+name: 🔔 Keep Service Alive (IST 6AM–1PM)
+
+# IST = UTC + 5:30
+# 6:00 AM IST  = 00:30 UTC
+# 1:00 PM IST  = 07:30 UTC
+# Ping every 15 minutes within that window
+
+on:
+  schedule:
+    - cron: '30 0 * * *'   # 06:00 IST
+    - cron: '45 0 * * *'   # 06:15 IST
+    - cron: '0  1 * * *'   # 06:30 IST
+    - cron: '15 1 * * *'   # 06:45 IST
+    - cron: '30 1 * * *'   # 07:00 IST
+    - cron: '45 1 * * *'   # 07:15 IST
+    - cron: '0  2 * * *'   # 07:30 IST
+    - cron: '15 2 * * *'   # 07:45 IST
+    - cron: '30 2 * * *'   # 08:00 IST
+    - cron: '45 2 * * *'   # 08:15 IST
+    - cron: '0  3 * * *'   # 08:30 IST
+    - cron: '15 3 * * *'   # 08:45 IST
+    - cron: '30 3 * * *'   # 09:00 IST
+    - cron: '45 3 * * *'   # 09:15 IST
+    - cron: '0  4 * * *'   # 09:30 IST
+    - cron: '15 4 * * *'   # 09:45 IST
+    - cron: '30 4 * * *'   # 10:00 IST
+    - cron: '45 4 * * *'   # 10:15 IST
+    - cron: '0  5 * * *'   # 10:30 IST
+    - cron: '15 5 * * *'   # 10:45 IST
+    - cron: '30 5 * * *'   # 11:00 IST
+    - cron: '45 5 * * *'   # 11:15 IST
+    - cron: '0  6 * * *'   # 11:30 IST
+    - cron: '15 6 * * *'   # 11:45 IST
+    - cron: '30 6 * * *'   # 12:00 IST
+    - cron: '45 6 * * *'   # 12:15 IST
+    - cron: '0  7 * * *'   # 12:30 IST
+    - cron: '15 7 * * *'   # 12:45 IST
+    - cron: '30 7 * * *'   # 13:00 IST
+  workflow_dispatch:        # Allow manual trigger for testing
+
+jobs:
+  ping:
+    name: 🏓 Ping Render Service
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping /latest-updates endpoint
+        run: |
+          echo "⏰ Pinging server at $(date -u '+%Y-%m-%d %H:%M UTC') (IST: $(TZ='Asia/Kolkata' date '+%H:%M'))"
+          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+            --max-time 30 \
+            https://ttd-latest-updates-latest.onrender.com/latest-updates)
+          echo "📡 HTTP Response: $HTTP_CODE"
+          if [ "$HTTP_CODE" -eq 200 ]; then
+            echo "✅ Service is alive and healthy!"
+          else
+            echo "⚠️  Service returned HTTP $HTTP_CODE — it may be warming up or degraded."
+          fi
